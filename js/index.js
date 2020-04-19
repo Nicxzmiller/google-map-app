@@ -28,7 +28,7 @@ function showStoreMarkers() {
         var address = store.addressLines[0];
         createMarker(latlng, name, address, index);
         bounds.extend(latlng);
-    })
+    });
     map.fitBounds(bounds);
 }
 

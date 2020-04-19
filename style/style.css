@@ -63,3 +63,14 @@ body {
     outline: none;
 }
 
+.store-list-container{
+    position: absolute;
+    background: #ffffff;
+    width: 400px;
+    z-index: 100;
+    top: 320px;
+    left: 100px;
+    border-radius: 30px;
+    bottom: 20px;
+}
+
