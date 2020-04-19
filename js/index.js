@@ -5,9 +5,9 @@ var infoWindow;
 var locationSelect;
 
 function initMap() {
-      var sydney = {lat: -33.863276, lng: 151.107977};
+      var malta = {lat: 35.9375, lng: 14.3754};
       map = new google.maps.Map(document.getElementById('map'), {
-        center: sydney,
+        center: malta,
         zoom: 11,
         mapTypeId: 'roadmap',
   });
