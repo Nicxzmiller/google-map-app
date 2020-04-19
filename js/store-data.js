@@ -112,7 +112,8 @@ let stores = [{
         "name": "tbd - Uber Eats"
     }],
     "slug": "la-cienega-gregory-way-257-s-la-cienega-blvd-beverly-hills-ca-902113301-u"
-}, {
+},
+    {
     "recommendation": {},
     "storeNumber": "5577-1851",
     "id": "14753",
@@ -223,7 +224,8 @@ let stores = [{
         "name": "tbd - Uber Eats"
     }],
     "slug": "fairfax-olympic-6066-west-olympic-boulevard-los-angeles-ca-9003644"
-}, {
+},
+    {
     "recommendation": {},
     "storeNumber": "16279-169147",
     "id": "114059",
@@ -322,7 +324,8 @@ let stores = [{
         "name": "My Starbucks Rewards"
     }],
     "slug": "target-la-beverly-t-2775-8480-beverly-blvd-los-angeles-ca-900483414-us"
-}, {
+},
+    {
     "recommendation": {},
     "storeNumber": "75244-90562",
     "id": "9620",
@@ -412,7 +415,8 @@ let stores = [{
         "name": "Bakery"
     }],
     "slug": "cedars-sinai-medical-center-8700-beverly-blvd-los-angeles-ca-900481804-us"
-}, {
+},
+    {
     "recommendation": {},
     "storeNumber": "12900-154604",
     "id": "19370",
@@ -526,7 +530,8 @@ let stores = [{
         "name": "tbd - Uber Eats"
     }],
     "slug": "wilshire-curson-5757-wilshire-blvd-los-angeles-ca-900365810-us"
-}, {
+},
+    {
     "recommendation": {},
     "storeNumber": "22415-184968",
     "id": "1006844",
@@ -601,7 +606,8 @@ let stores = [{
         "name": "Digital Rewards"
     }],
     "slug": "ralphs-los-angeles-289-5601-wilshire-blvd-los-angeles-ca-90036-us"
-}, {
+},
+    {
     "recommendation": {},
     "storeNumber": "5871-30359",
     "id": "15639",
@@ -715,7 +721,8 @@ let stores = [{
         "name": "tbd - Uber Eats"
     }],
     "slug": "beverly-robertson-164-n-robertson-west-hollywood-ca-900483109-us"
-}, {
+},
+    {
     "recommendation": {},
     "storeNumber": "5626-1958",
     "id": "16379",
@@ -829,7 +836,8 @@ let stores = [{
         "name": "tbd - Uber Eats"
     }],
     "slug": "pico-robertson-8783-west-pico-blvd-los-angeles-ca-900352212-us"
-}, {
+},
+    {
     "recommendation": {},
     "storeNumber": "671-312",
     "id": "12165",
