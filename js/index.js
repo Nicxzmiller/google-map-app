@@ -93,8 +93,9 @@ function initMap() {
           mapTypeControl:false,
   });
 
+
     var styleControl = document.getElementById('style-selector-control');
-    map.controls[google.maps.ControlPosition.TOP_LEFT].push(styleControl);
+    map.controls[google.maps.ControlPosition.TOP_CENTER].push(styleControl);
 
     var styleSelector = document.getElementById('style-selector');
     map.setOptions({styles: styles[styleSelector.value]});
@@ -106,6 +107,7 @@ function initMap() {
 
     infoWindow = new google.maps.InfoWindow();
     searchStores();
+
 
 }
 
@@ -425,6 +427,8 @@ function searchStores() {
     showStoreMarkers(foundStores);
     setOnClickListener()
 }
+
+
 
 function clearLocations() {
     infoWindow.close();

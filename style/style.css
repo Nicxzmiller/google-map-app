@@ -147,14 +147,94 @@ body {
     /* Hide the control initially, to prevent it from appearing
        before the map loads. */
     display: none;
+    border-radius: 18px;
+
 }
 /* Display the control once it is inside the map. */
-#map .map-control { display: block; }
+#map .map-control {
+    display: block;
+}
 
 .selector-control {
     font-size: 14px;
     line-height: 30px;
     padding-left: 5px;
     padding-right: 5px;
+    width: 400px;
+    border-radius: 18px;
+    outline: none;
+}
+
+.selector-control option{
+    outline: none;
+}
+#description {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+.pac-card {
+    position: absolute;
+    width: 500px;
+    margin: 10px 10px 0 0;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: 'Overpass Mono', monospace;
+    z-index: 100;
+    left: 1300px;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+#title {
+    color: #fff;
+    background-color: #EA4335;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
 }
 
