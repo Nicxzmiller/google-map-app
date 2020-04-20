@@ -18,7 +18,7 @@ body {
     position: absolute;
     font-size: 88px;
     text-transform: uppercase;
-    color: #333;
+    color: #EA4335;
     z-index: 100;
     font-weight: bold;
     top: 100px;
@@ -30,7 +30,7 @@ body {
     position: absolute;
     width: 400px;
     height: 60px;
-    background-color: #454E53;
+    background-color: #EA4335;
     z-index: 100;
     top: 230px;
     left: 100px;
@@ -67,6 +67,14 @@ body {
     display: flex;
     padding-left: 5px;
     padding-right: 5px;
+    transition: all 1s ease-in-out;
+}
+
+.store-container-background:hover{
+    background-color: #ccc;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 18px;
 
 }
 
@@ -98,8 +106,8 @@ body {
     width: 30px;
     height: 30px;
     display: flex;
-    background-color: #454E53;
-    color: #B5ADAD;
+    background-color: #EA4335;
+    color: #ffffff;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
